@@ -1,7 +1,8 @@
 """
-[LAB] DoS Attack Simulator — DEMO TERBATAS
-Mendemonstrasikan efek Denial of Service pada response time.
-Maksimum 200 request untuk keperluan demo.
+[LAB] DoS Real-Time Monitoring Simulator — DEMO TERBATAS
+Mendemonstrasikan efek Denial of Service terhadap response time server
+secara real-time melalui dashboard monitoring.
+Maksimum 20000 request untuk keperluan demo.
 HANYA untuk keperluan edukasi di lingkungan lab lokal.
 
 Jalankan website.py terlebih dahulu, lalu:
