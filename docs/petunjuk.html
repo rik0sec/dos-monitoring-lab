@@ -1,0 +1,15 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Petunjuk DoS</title>
+<style>body{font-family:monospace;background:#111;color:#eee;padding:16px}code{background:#222;padding:2px 4px}pre{background:#1a1a1a;padding:8px;border:1px solid #333}h3{color:#7df}hr{border-color:#333}</style></head><body>
+<h3>🔴 Denial of Service Lab — Port 5004</h3>
+<b>1. Server (Perangkat A):</b>
+<pre>python website.py</pre>
+<b>2. Attacker (Perangkat B):</b>
+<pre>python attack.py</pre>
+<hr>
+<b>⚙ Simulasi Beda Perangkat:</b><br><br>
+Di <code>website.py</code> baris terakhir, ubah host:<br>
+<code>app.run(host="0.0.0.0", port=5004, threaded=True)</code><br><br>
+Di <code>attack.py</code> baris BASE_URL, ubah IP:<br>
+<code>BASE_URL = "http://&lt;IP_SERVER&gt;:5004"</code><br><br>
+Cek IP server: <code>ifconfig</code> (Linux/Mac) atau <code>ipconfig</code> (Windows)
+</body></html>
