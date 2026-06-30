@@ -117,7 +117,7 @@ Dashboard monitoring bisa diakses di: `http://localhost:5004`
 
 ### 5. Jalankan simulasi attack (di terminal terpisah)
 ```bash
-python scripts/attack.py --threads 20 --requests 100 --target fast
+python scripts/attack.py --target-url http://localhost:5004 --threads 20 --requests 100 --target fast
 ```
 
 Parameter yang tersedia:
