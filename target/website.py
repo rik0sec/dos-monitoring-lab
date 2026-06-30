@@ -1,7 +1,11 @@
 """
 [LAB] DoS Target Website — Flask
-Website target untuk demonstrasi Denial of Service.
-Memiliki endpoint ringan dan endpoint berat (heavy computation).
+Website target dengan dashboard monitoring real-time (Cyber Security
+Monitoring Dashboard) untuk demonstrasi efek Denial of Service.
+Menampilkan metrik live: total requests, requests/sec, uptime, CPU & RAM
+usage, threat level, jumlah serangan terdeteksi, durasi serangan, hingga
+grafik traffic trend (RPS). Memiliki endpoint ringan dan endpoint berat
+(heavy computation) sebagai target simulasi serangan.
 HANYA untuk keperluan edukasi di lingkungan lab lokal.
 
 Jalankan: python website.py
