@@ -17,7 +17,7 @@ from colorama import Fore, Style, init
 from queue import Queue
 
 init(autoreset=True)
-BASE_URL = "http://192.168.1.14:5004"
+BASE_URL = "http://--target-url:5004"
 MAX_REQUESTS = 20000      # Hard cap untuk keamanan demo
 
 
